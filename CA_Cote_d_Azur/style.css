@@ -1,0 +1,294 @@
+
+.Page .Page3{
+    position: relative;
+}
+
+.Page3 {
+    
+    
+    /* height: 100vh; */
+    width: 100vw; 
+
+}
+
+.Page1 {
+    
+    
+    /* height: 100vh; */
+    width: 100vw; 
+    background-size: cover;
+
+    display: flex;
+    position: absolute;
+    z-index: 1;
+       
+}
+
+
+.bgImage{
+    Background-color:
+        rgba(220, 189, 38, 0.434);
+    background-image: url("./ressources/coffee-break-1177540_1920.jpg") ;
+    background-position: center;
+    background-size: cover;
+    filter: blur(10px);
+    height: 100vh;
+    width: 100vw; 
+    position: absolute;
+    filter:contrast(80%)
+    
+}
+.Titre{
+    display: flex;
+    align-items: center;
+   
+   flex-direction: column;
+   align-content: center;
+   justify-content: center;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+}
+.Titre1 .Titre2{
+    justify-content: center;
+  
+    
+       
+    
+
+}
+.Titre1{
+    font-size:70px;
+    color: #FFFFFF;
+    text-align: center;
+    
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: inherit;
+
+}
+.Titre2{
+    
+    background-color:rgba(56,157,180,0.8);
+    font-size:70px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: inherit;
+
+}
+.coul1{
+    color:#389DB4;
+}
+.coul2{
+    color:#C7ECF6;
+}
+
+.navbar-nav li a {
+    color:#FFFFFF;
+}
+
+.navo{
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+nav{
+    display: flex;
+    /* margin: 0 -10px; */
+    background-color: #389DB4;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100vw;
+}
+.item{
+    
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    color:#FFFFFF;
+    font-size: larger;
+    
+}
+ nav 
+ {
+    display: flex;
+    justify-content: space-between;
+ }   
+ .navi{
+     display: flex;
+ } 
+
+  nav li {
+      /* margin: 0 10px; */
+      justify-content: space-between;
+  }
+  
+  .brand{
+      color:#FFFFFF;
+      font-weight: bold;
+  }
+
+  a:link 
+  { 
+   text-decoration:none;
+   color:#FFFFFF;
+    
+  } 
+  a:visited 
+  { text-decoration: none; }
+.Mar{
+    flex-grow: 2;
+    color:#FFFFFF;
+
+}
+.espr{
+    flex-grow: 1;
+    color:#FFFFFF;
+}
+  .Mem{
+    flex-grow: 1;
+    color:#FFFFFF;
+}
+  .Actu{
+    flex-grow: 1;
+    color:#FFFFFF;
+}
+  .Cont{
+    flex-grow: 1;
+    color:#FFFFFF;
+}
+
+.Page2{
+    background-color: #C7ECF6;
+    display: flex;
+    /* height: 80vh; */
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 7%;
+    gap: 7%;
+    position: relative;    
+  }
+   
+
+
+.Club{
+    background-color: #389DB4;
+    color:#FFFFFF;
+    max-width: 27%;
+    max-height: 91vh;
+    box-shadow: -52px 50px 0px 1px #C7ECF6, 
+                55px -48px 0px 5px #C7ECF6, 
+                 0px 0px 0px 51px #FFFFFF;
+
+}
+.Titre3{
+    color:#FFFFFF;
+    font-size: 1.5em;   
+    letter-spacing:  0.15em;
+}
+.Blocsoust{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 1.5em;
+    color:#FFFFFF;
+}
+.Titre4{
+    writing-mode: sideways-lr;   
+    display: flex;
+    padding-right: 13px;
+    font-size: 20px;   
+    letter-spacing:  0.15em;
+    
+}
+.Texte{
+   margin-top: -1.5em;
+   padding-right: 1.2em;
+      
+}
+
+.Texte p{
+    text-align: justify;
+}
+.ImageC{
+    max-width: 60%;
+    position: absolute;
+    right: 0;
+    
+}
+.ImageC img{
+    width: 120vh;
+    height: 80vh;
+}
+.grid {
+    display: grid;
+   
+    grid-template-columns: repeat(auto-fill, minmax(min(200px, max(150px, 100%/4)), 1fr));
+  /* --min-cols: 1;
+  --max-cols: 4;
+  --cols-min-width: 100px; */
+    /* This is better for small screens, once min() is better supported */
+    /* grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
+    gap: 4rem;
+    
+    padding:250px;
+  }
+  .grid > div {
+    background: #302e32;
+    padding: 5.5rem;
+  }
+  .backroundlogo{
+    background-color: #389DB4;
+    color:#FFFFFF;
+    max-width: 100%;  
+     
+  }
+  .nom{
+      grid-area: n;
+      width: 100%;
+      height: 100%;
+  }
+  .mail{
+    grid-area: e;
+  }
+  .message{
+    grid-area: m;
+  }
+  .telephone{
+    grid-area: t;
+  }
+
+  .formulaire{
+      display: grid;
+      margin: auto;
+    width: 50%;
+    column-gap: 200px;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: 
+            "n . "
+            "e t "
+            "m m ";
+            
+  }
+  .name{
+    text-align: center;
+  }
+  input{
+      width: 100%;
+  }
+  label{
+      display: block;
+      padding-left: 5px;
+  }
+  textarea{
+      resize: none;
+  }
+  nav{display: flex;}

@@ -1,0 +1,96 @@
+body{
+    background-color: #389DB4;
+}
+.Texte p{
+    text-justify: auto;
+    width: 250px;
+}
+.box
+{
+   border: solid 5px white;
+    
+}
+.row{
+    
+    color:white;
+    font-size: large;
+    
+    height: 50px;
+
+}
+.Blocsoust{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 1.5em;
+    color:#FFFFFF;
+    margin-left: 30px;
+}
+.Titre7{
+    writing-mode: sideways-lr;   
+    display: flex;
+    padding-right: 13px;
+    font-size: 20px;   
+    letter-spacing:  0.15em;
+    position: relative;
+    top: 130px;
+}
+
+.Texte{
+   margin-top: -1.5em;
+   padding-right: 1.2em;
+   position: relative;
+    top: 145px;
+    right: 60px;
+      
+}
+
+.Titre6{
+    color:#FFFFFF;
+    font-size: 1.5em;   
+    letter-spacing:  0.15em;
+    position: relative;
+    top:45px;
+    left:10px;
+
+}
+.Trait{
+    border:solid 3px white;
+    position: relative;
+    width: 4em;
+
+}
+.Trait2{
+    border: solid 3px white;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+    width: 3em;
+    bottom: 4.5px;
+}
+.shape {
+    
+    margin: -4.8px;
+   
+    border:solid 5px #389DB4  ;
+    
+    clip-path: border-box;
+    
+/* -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 41%, 88% 41%, 88% 12%, 50% 12%); 
+clip-path: polygon(50% 0%, 100% 0, 100% 41%, 88% 41%, 88% 12%, 50% 12%); */
+
+
+
+
+/* 
+-webkit-clip-path: polygon( 54% 15%, 54% 15%, 54% 15%, 54% 15%,54% 15%, 54% 0%, 54% 0%, 54% 0%, 54% 0%, 54% 0%, 100% 1%, 100% 1%, 100% 1%, 100% 1%, 100% 1%, 100% 47%, 100% 47%, 100% 47%, 100% 47%, 100% 47%, 87% 49%, 87% 49%, 87% 49%, 87% 49%, 87% 49%, 87% 16%, 87% 16%, 87% 16%, 87% 16%, 87% 16%); clip-path: polygon( 54% 15%, 54% 15%, 54% 15%, 54% 15%,54% 15%, 54% 0%, 54% 0%, 54% 0%, 54% 0%, 54% 0%, 100% 1%, 100% 1%, 100% 1%, 100% 1%, 100% 1%, 100% 47%, 100% 47%, 100% 47%, 100% 47%, 100% 47%, 87% 49%, 87% 49%, 87% 49%, 87% 49%, 87% 49%, 87% 16%, 87% 16%, 87% 16%, 87% 16%, 87% 16%); */
+
+
+-webkit-clip-path: polygon(5% 76%, 0 77%, 0 0, 81% 0, 81% 11%, 95% 13%, 95% 37%, 100% 37%, 100% 100%, 15% 100%, 15% 89%, 5% 88%); 
+clip-path: polygon(5% 76%, 0 77%, 0 0, 81% 0, 81% 11%, 95% 13%, 95% 37%, 100% 37%, 100% 100%, 15% 100%, 15% 89%, 5% 88%);
+
+
+
+
+/* 
+-webkit-clip-path: polygon(0 18%, 20% 19%, 21% 0, 74% 0, 100% 0, 100% 17%, 100% 83%, 82% 83%, 82% 100%, 21% 100%, 0 100%, 0 77%);
+ clip-path: polygon(0 18%, 20% 19%, 21% 0, 74% 0, 100% 0, 100% 17%, 100% 83%, 82% 83%, 82% 100%, 21% 100%, 0 100%, 0 77%) ; */

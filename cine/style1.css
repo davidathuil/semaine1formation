@@ -1,0 +1,38 @@
+.TitreN{
+    text-align: center;   
+    flex-grow: 1 ;
+    
+    
+    }
+
+.TitreN img{
+  text-align: center;
+  vertical-align: middle;
+  width: auto;
+  
+  
+
+}
+
+.Total{
+    display: flex;
+    flex-direction: column;
+}
+
+.Global{
+    display: flex;
+    justify-content: center;
+    flex-grow: 6;
+}
+
+.Bloc{
+    
+    border-left: solid 5px #D82C2C;
+    background-color: rgb(187, 172, 172);
+    width: 30%;
+    display: flex;
+    
+    
+}
+
+

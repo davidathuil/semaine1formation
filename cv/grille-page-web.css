@@ -1,0 +1,35 @@
+.container{ border: 3px solid; } 
+ 
+.bordureRouge{ border: 3px solid red; padding: 10px; }
+.bordureVerte{ border: 3px solid green; padding: 10px; }
+.bordureBleue{ border: 3px solid blue; }
+.bordureJaune{ border: 3px solid yellow; padding: 10px; }
+.bordureOrange{ border: 3px solid orange; padding: 10px; }
+.bordureNoir{ border-right: 3px solid black; padding: 10px; }
+ 
+.header-1, .header-2, .header-3{ min-height: 100px; }
+.section-1, .section-2, .section-3{ min-height: 400px;  }
+.header-1 img {
+    border-radius: 50%;
+  }
+  .date{
+      font-weight:bold;
+    }
+h1{
+             
+            vertical-align:middle;
+            align-content: center;
+            
+    }
+    
+.header-2{
+    font-size: x-large;
+    font-weight:bold;
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+    display: grid;
+}
+.test{
+    font-size: 1vw;
+}

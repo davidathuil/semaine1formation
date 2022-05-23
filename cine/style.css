@@ -1,0 +1,105 @@
+.TitreN{
+    text-align: center;   
+    
+    
+    }
+
+.TitreN img{
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width:10%;
+  height: 8%;
+
+}
+.Titre {color:white;
+    text-align: left;
+    position: absolute;
+    top:80%;
+    left: 10%;
+                
+}
+.Global{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.Bloc{
+    
+    border-left: solid 5px #D82C2C;
+    background-color: rgb(187, 172, 172);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+
+.Bloc img{
+    width: 100%;
+    height: 90%;
+}
+.Sousbloc{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+h2{
+    color: red;
+    font-weight: bold;
+
+}
+.BlocImT{
+    position: relative;
+    display: inline-block;
+    height:400px ;
+}
+    
+.note{
+    color:red;
+
+}
+
+.Par{
+    font-style: italic;
+
+}
+
+.description{
+    text-align: justify;
+
+}
+.description p::first-letter {
+    font-size: larger;
+    color : #D82C2C;
+}
+
+.Bloc:hover{
+    border-left:solid 8px grey;
+   
+}
+
+
+.Bloc:active{
+    opacity: 0.5;
+}
+@media (max-width: 600px) {
+    img {
+        width: 100%;
+    }
+    .Global{
+        display: inline-block;
+        text-align:-moz-center;
+          
+    }
+
+    .Bloc{
+        width: 90%;
+    }
+    .TitreN img{
+        width: 20%;
+}

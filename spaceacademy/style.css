@@ -1,0 +1,45 @@
+.TitreBienvenue {
+    border-bottom-style: solid;
+    border-bottom-color: #1771CF;
+    display: flex;}
+
+.TitreBienvenue img{
+    width: 10%;
+    text-align: justify;
+    padding: 10px;}
+
+h1 {
+    text-align: justify;
+    width: 800px;
+    line-height: 100px;
+    padding-top: 25px;
+    color: #1771CF;
+    padding-left: 25px}
+
+.Imgastro {display :flex}
+
+
+.Equipe , .Valeurs h3{
+    font-weight:bold;
+    color:#1771CF
+}
+
+
+.border  {
+
+border-color: #1771CF;
+background-color: #6AADF2;
+width: 220px;
+margin-right: 10px;
+padding-left: 10px;
+}
+
+
+.border p {
+    text-align: left;
+    color: white;
+    ;  
+}
+.citation{
+    font-style: italic;
+}
